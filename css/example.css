@@ -1,0 +1,14 @@
+.ADDNAMEOFCLASS {
+    display: flex;
+    /*ADD PROPERTY HERE*/
+    background-color: gray;
+  }
+  
+  .ADDNAMEOFCLASS > div {
+    background-color: #F15837;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
