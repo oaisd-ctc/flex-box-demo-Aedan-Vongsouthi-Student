@@ -12,6 +12,7 @@
     <link href="css/example.css" rel="stylesheet" type="text/css">
     <link href="css/flex-wrap-wrap.css" rel="stylesheet" type="text/css">
     <link href="css/justify-content-flex-end.css" rel="stylesheet" type="text/css">
+    <link href="css/extra-credit.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -109,7 +110,7 @@
 
         <h2> The structure for the code in HTML varies on what you want to do, but follows a basic structure. </h2>
         
-    <textarea disabled cols="40" rows="10">
+    <textarea disabled cols="50" rows="10">
 
         <div class="Placeholder Class">
     
@@ -127,7 +128,7 @@
 
     <h2> Just like in the code shown in the Structure Example, the "order:" property allows the user to put flex items in their desired order, the number 1 being first, 2 being second, and so on. </h2>
 
-    <textarea disabled cols="40" rows="10">
+    <textarea disabled cols="50" rows="10">
 
         <div class="flex-wrap-wrap">
 
@@ -137,7 +138,105 @@
         
         </div>
 
-</textarea>
+    </textarea>
+
+    <div class="flex-wrap-wrap">
+
+        <div style="order: 2;"> 1 </div>
+        <div style="order: 3;"> 2 </div>
+        <div style="order: 1;"> 3 </div>
+
+    </div>
+
+<h1 class="underline"> Flex-Shrink </h1>
+
+    <h2> The "flex-shrink:" property makes it so a flex item shrinks relative to the original size of the other flex boxes.</h2>
+
+    <textarea disabled cols="50" rows="25">
+
+        <div class="justify-content-flex-end">
+
+            <div> 1 </div>
+            <div> 2 </div>
+            <div> 3 </div>
+            <div> 4 </div>
+            <div style="flex-shrink: 4;"> 5 </div>
+            <div> 6 </div>
+            <div> 7 </div>
+            <div> 8 </div>
+            <div> 9 </div>
+            <div> 10 </div>
+            <div> 11 </div>
+            <div> 12 </div>
+            <div> 13 </div>
+            <div> 14 </div>
+            <div> 15 </div>
+            <div> 16 </div>
+            <div> 17 </div>
+            <div> 18 </div>
+    
+        </div>
+
+    </textarea>
+
+
+    <div class="justify-content-flex-end">
+
+        <div> 1 </div>
+        <div> 2 </div>
+        <div> 3 </div>
+        <div> 4 </div>
+        <div style="flex-shrink: 4;"> 5 </div>
+        <div> 6 </div>
+        <div> 7 </div>
+        <div> 8 </div>
+        <div> 9 </div>
+        <div> 10 </div>
+        <div> 11 </div>
+        <div> 12 </div>
+        <div> 13 </div>
+        <div> 14 </div>
+        <div> 15 </div>
+        <div> 16 </div>
+        <div> 17 </div>
+        <div> 18 </div>
+
+    </div>
+
+
+<h1 class="underline"> Flex-Basis </h1>
+
+    <h2> The "flex-basis:" property in simple terms, makes a flex item longer in length. </h2>
+
+    <textarea disabled cols="55" rows="10">
+
+        <div class="flex-wrap-wrap">
+
+            <div> 1 </div>
+            <div style="flex-basis: 200px;"> 2 </div>
+            <div> 3 </div>
+        
+        </div>
+
+    </textarea>
+
+    <div class="flex-wrap-wrap">
+
+        <div> 1 </div>
+        <div style="flex-basis: 200px;"> 2 </div>
+        <div> 3 </div>
+    
+    </div>
+
+<h1 class="underline"> Extra Credit </h1>
+
+    <div id="extra-credit">
+
+        <div class="flex-item"> 1 </div>
+        <div class="flex-item"> 2 </div>
+        <div class="flex-item"> 3 </div>
+
+    </div>
 
 </body>
 
